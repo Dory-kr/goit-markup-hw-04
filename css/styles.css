@@ -365,10 +365,7 @@ ul {
         gap: 24px;
     }
     
-    .instagram-icon,
-    .twitter-icon,
-    .facebook-icon,
-    .linkedin-icon {
+.social-icon {
         width: 40px;
         height: 40px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -529,6 +526,7 @@ ul {
 .footer-icon {
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link {
@@ -544,11 +542,4 @@ ul {
 .footer-link:hover,
 .footer-link:focus {
     background-color: #31d0aa;
-}
-
-.footer-insta-icon,
-.footer-twi-icon,
-.footer-facebook-icon,
-.footer-ld-icon {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
