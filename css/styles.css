@@ -426,6 +426,7 @@ ul {
     background-color: var(--logo-color);
     height: 100%;
     width: 100%;
+    transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -464,10 +465,6 @@ ul {
                                                 line-height: 1.5;
                                                 letter-spacing: 0.02em;
                                             }
-
-.item-inform:hover {
-    transform: translateY(0%);
-}
 
 .footer {
                                                 background-color: var(--main-text-color);
