@@ -415,7 +415,7 @@ ul {
     overflow: hidden;
 }
 
-.portfolio-hidden-text:hover {
+.section-img:hover .portfolio-hidden-text {
     transform: translateY(0%);
 }
 
