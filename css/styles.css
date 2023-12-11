@@ -477,6 +477,9 @@ ul {
 .footer-container {
     display: flex;
     align-items: baseline;
+}
+
+.footer-main {
     margin-right: 120px;
 }
 
